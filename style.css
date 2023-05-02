@@ -1,0 +1,334 @@
+body{
+    background-color: #E5E5E5;
+    width: auto;
+    height: auto;
+  }
+  
+  header{
+    width: auto;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+  }
+  
+  .input-texto{
+    margin-top: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border-radius: 10px;
+  }
+  
+  textarea::-webkit-input-placeholder {
+    top: 168px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  
+  textarea::-moz-placeholder {
+    top: 168px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  
+  textarea::-ms-input-placeholder {
+    top: 168px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  
+  .mensagem-box {
+    min-height: 500px; 
+    position: relative; 
+    margin-left: 50px;
+  }
+  
+  .mensagem {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    background-image: url("boneco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .copiar{
+    position: absolute;
+    margin-top: 415px;
+    margin-left: 158px;
+    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    color: white;
+    padding: 24px;
+    gap: 8px;
+    width: 100px;
+    height: 80px;
+    background: #0A3871;
+    border: 1px solid;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .nenhuma-mensagem{
+    position: absolute;
+    margin-top: 30px;
+    margin-left:35px;
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;;
+    flex-grow: 0;
+  }
+  
+  .texto-deseja-criptografar{
+    position: absolute;
+    margin-top: 87px;
+    margin-left: 35px;
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .botoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  .encriptar{
+    margin: 50px 0 50px 0 ;
+    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    color: white;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border: 1px solid;
+    border-radius: 24px;
+    
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .desencriptar{
+    margin: 50px 0 50px 0 ;
+    margin-left: 24px;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: #0A3871;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+  }
+  
+  .esclamacao{
+    float: left;  
+    margin-right: 8px;
+    margin-bottom: 17px;
+    width: 16px;
+    height: 16PX;
+  }
+  
+  .informacao{
+    font-size: 12px;
+    margin-bottom: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  
+  footer {
+    background:url(footer-background.jpg);
+    text-align: center;
+  }
+  
+  .copyright{
+    color: white;
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  
+  .logo-matheus{
+    margin-top: 100px;
+    width: 90px;
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      width: 100%;
+    }
+  
+    header {
+      margin-left: 20px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  
+    main {
+      flex-direction: column;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 30px;
+    }
+  
+    .mensagem-box{
+      margin-left: 0;
+    }
+  
+    .mensagem {
+      position: absolute;
+      width: auto;
+      height: 360px;
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  
+    .nenhuma-mensagem {
+      position: absolute;
+      font-size: 18px;
+      margin-top: 340px;
+      margin-left: 75px;
+      width: 195px;
+    }
+  
+    .texto-deseja-criptografar {
+      font-size: 12px;
+      font-weight: bold;
+      margin-top: 25px;
+      margin-left: 70px;
+      width: 200px;
+    }
+  
+    .botoes {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+  
+    .encriptar {
+      margin: 20px 0;
+      width: calc(100% - 140px);
+    }
+  
+    .desencriptar {
+      margin: 20px 0;
+      margin-left: 0;
+      width: calc(100% - 140px);
+    }
+  
+    .input-texto {
+      width: auto;
+      height: auto;
+      font-size: 18px;
+      margin-left: 0px;
+      margin-right: 0px;
+
+    }
+    .esclamacao{
+      float: left;  
+      margin-right: 6px;
+      margin-bottom: 17px;
+      width: 16px;
+      height: 16PX;
+    }
+    
+    .informacao{
+      font-size: 8px;
+      margin-bottom: 17px;
+      line-height: 150%;
+    }
+    .copiar {
+      margin-top: 410px;
+      margin-left: 120px;
+    }
+  
+    textarea::-webkit-input-placeholder {
+      top: 114px;
+      font-size: 16px;
+    }
+  
+    textarea::-moz-placeholder {
+      top: 114px;
+      font-size: 16px;
+    }
+  
+    textarea::-ms-input-placeholder {
+      top: 114px;
+      font-size: 16px;
+    }
+  
+    .footer {
+      position: fixed;
+      width: auto;
+      margin-top: 440px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+  }
+  

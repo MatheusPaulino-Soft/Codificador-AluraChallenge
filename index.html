@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="style.css">
+        <title>Codificador</title>
+    </head>
+    
+    <body>
+        <header>
+            <img src="Vector.png" alt="Logo da Alura">
+        </header>
+        <main>
+            <section>
+                <textarea class="input-texto" cols="30" rows="5" placeholder="Digite seu Texto"></textarea>
+                <div>
+                    <img src="esclamacao.png" alt="alerta de prioridade" class="esclamacao">
+                    <h6 class="informacao">Apenas letras minusculas e sem acento</h6>
+                </div>
+                <div class="botoes">
+                    <button class="encriptar" onclick="btnEncriptar()">Criptrografar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+                
+            </section>
+
+            <section class="mensagem-box">
+                <textarea class="mensagem" cols="20" rows="10"></textarea>
+                <p class="nenhuma-mensagem">Nenhuma mensagem encontrada</p>
+                <p class="texto-deseja-criptografar">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <div id="div-aparece">
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+
+        </main>
+        <script src="script.js"></script>
+
+        <footer>
+            <img src="logo-matheus.png" class="logo-matheus">
+            <p class="copyright">&copy; Copyright Matheus H. Paulino - 2023</p>
+        </footer>
+    </body>
+
+</html>
